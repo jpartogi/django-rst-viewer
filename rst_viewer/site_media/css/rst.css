@@ -1,0 +1,4 @@
+body { font: 12px verdana; }
+
+label { display: block; font: bold 15px Helvetica; letter-spacing:-.8px; color: #333; }
+textarea {  border: 1px solid #ddd; font: 12px monospace;  width: 100%; }
