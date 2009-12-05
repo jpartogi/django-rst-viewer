@@ -4,8 +4,11 @@ Django reStructured Text Viewer
 
 A simple  reStructured Text Viewer made with django.
 
+..
 
-------------
+    Because I want to view how it looks like before committing it
+
+
 Dependencies
 ------------
 
@@ -13,7 +16,7 @@ Dependencies
 - `docutils <http://docutils.sourceforge.net/>`_
 
 
-----------
+
 How to run
 ----------
 1. Go inside the rst_viewer directory
@@ -26,7 +29,7 @@ How to run
 5. Preview it by clicking the Preview button
 
 
--------
+
 License
 -------
-Copyright (c) 2009 Scrum8 (http://scrum8.com).
+Copyright (c) 2009 Scrum8 (http://scrum8.com) under BSD License.

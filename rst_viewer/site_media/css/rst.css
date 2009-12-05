@@ -1,4 +1,4 @@
 body { font: 12px verdana; }
-
+blockquote{ padding-left:1.5em; border-left:3px solid #eee; margin: 1em 0 1em 0; color:#666; font-size:11px; line-height:1.8em;}
 label { display: block; font: bold 15px Helvetica; letter-spacing:-.8px; color: #333; }
 textarea {  border: 1px solid #ddd; font: 12px monospace;  width: 100%; }
