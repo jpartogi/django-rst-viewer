@@ -1,4 +1,5 @@
 from django.conf.urls.defaults import *
+from django.conf import settings
 
 from rst_viewer.apps.forms import ViewerForm
 from rst_viewer.apps.views import ViewerFormPreview
@@ -19,3 +20,9 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # (r'^admin/', include(admin.site.urls)),
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^site_media/(?P<path>.*)$', 'django.views.static.serve',
+                 {'document_root': settings.MEDIA_ROOT, 'show_indexes': True}),
+    )
